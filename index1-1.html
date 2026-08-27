@@ -1,215 +1,46 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GAME DO SABER - Reforma Escolar</title>
-    <!-- Substitua 'style.css' pelo seu arquivo de estilo, se houver -->
+    <title>GAME-SABER</title>
     <link rel="stylesheet" href="style.css">
 
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #e9ecef;
-            color: #343a40;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .container {
-            max-width: 1000px;
-            width: 100%;
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-
-        /* Estilo da imagem principal do topo (Seu logo) */
-        .logo {
+        div {
+            height: 100vh;
             display: block;
-            margin: 0 auto 20px;
-            width: 40%;
-            max-width: 250px;
-            height: auto;
-        }
-
-        h1 {
-            color: #0056b3;
+            align-items: center;
+            justify-content: center;
             text-align: center;
-            text-decoration: underline;
-            margin-bottom: 10px;
+        }
+       
+        img {
+            width: 30%;
         }
 
-        h2 {
-            text-align: center;
-            color: #495057;
-            margin-top: 0;
-        }
-
-        .question {
-            text-align: center;
-            text-decoration: underline;
-            font-weight: bold;
-            margin: 25px 0;
-            color: #1e7e34;
-        }
-
-        /* Grid para as comparações Antes/Depois */
-        .grid-comparisons {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 25px;
-            margin-bottom: 30px;
-        }
-
-        /* Container de cada par de antes e depois */
-        figure {
-            margin: 0;
-            background-color: #f8f9fa;
-            border: 1px solid #dee2e6;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-            transition: transform 0.2s;
-        }
-
-        figure:hover {
-            transform: scale(1.02);
-        }
-
-        /* Ajuste das imagens para ficarem lado a lado */
-        .image-group {
-            display: flex;
-            justify-content: space-around;
-            padding: 15px 10px 10px;
-        }
-
-        figure img {
-            width: 46%; /* Quase metade para cada */
-            height: auto;
-            border-radius: 6px;
-            object-fit: cover;
-            aspect-ratio: 4 / 3; /* Mantém proporção */
-        }
-
-        figcaption {
-            margin: 10px 0 15px;
-            font-size: 1.1em;
-            font-weight: bold;
-            color: #333;
-            text-align: center;
-            padding: 0 15px;
-        }
-
-        .before-after-labels {
-            display: flex;
-            justify-content: space-around;
-            width: 100%;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-
-        .label-before {
-            color: #dc3545; /* Vermelho para 'Antes' */
-        }
-
-        .label-after {
-            color: #28a745; /* Verde para 'Depois' */
-        }
-
-        .footer-text {
-            text-align: center;
-            line-height: 1.6;
-            background-color: #f1f3f5;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
+       
     </style>
+
 </head>
 
 <body>
-    <div class="container">
-        <!-- Seu logo original aqui. Mantenha o nome do arquivo. -->
-        <img src="Gemini_Generated_Image_73ursg73ursg73ur.png" alt="Logotipo Game do Saber" class="logo">
-        
-        <h1><b><u>GAME DO SABER</u></b></h1>
-        <h2>NOSSA ESCOLA NOSSO COMPROMISSO</h2>
-        <p class="question"> <u>O QUE NÓS PODEMOS FAZER PARA TORNAR NOSSA ESCOLA AINDA MELHOR?</u></p>
-       
-        <div class="grid-comparisons">
-            <!-- 1. VENTILADORES -->
-            <figure>
-                <div class="image-group">
-                    <div class="before-after-labels"><span class="label-before">Antes</span> <span class="label-after">Depois</span></div>
-                    <img src="imagem" alt="sala">
-                    <img src="image_2.png" alt="Sala de aula depois: ventiladores modernos e limpos">
-                </div>
-                <figcaption>1. Renovação dos Ventiladores</figcaption>
-            </figure>
 
-            <!-- 2. CARTEIRAS -->
-            <figure>
-                <div class="image-group">
-                    <div class="before-after-labels"><span class="label-before">Antes</span> <span class="label-after">Depois</span></div>
-                    <img src="image_3.png" alt="Pátio antes: bancos de madeira velhos e deteriorados">
-                    <img src="image_4.png" alt="Pátio depois: novos bancos ergonômicos e coloridos">
-                </div>
-                <figcaption>2. Novas Carteiras e Bancos</figcaption>
-            </figure>
+    <h1><b><u> GAME DO SABER </u></b></h1>
+    <p>NOSSA ESCOLA NOSSO COMPROMISSO</p>
+    <p style="text-align: center;"> <u>O QUE NÓS PODEMOS FAZER PARA TORNAR NOSSA ESCOLA AINDA MELHOR?</u></p>
+   
+    <figure>
+        <img src="ventilador.jpg">
+        <figcaption><b>antes e depois - "ventilador"</b></figcaption>
+    </figure>
 
-            <!-- 3. PAREDES E PINTURA -->
-            <figure>
-                <div class="image-group">
-                    <div class="before-after-labels"><span class="label-before">Antes</span> <span class="label-after">Depois</span></div>
-                    <img src="image_5.png" alt="Paredes internas antes: pintura descascada e pichada">
-                    <img src="image_6.png" alt="Paredes internas depois: pintura fresca e mural educativo colorido">
-                </div>
-                <figcaption>3. Pintura e Murais Educativos</figcaption>
-            </figure>
+    <p style="text-align: center;"> O cuidade com o patrimônio da escola é responsabilidade <br>
+    de todos os estudantes e funcionários, os bens duráveis são importantes para o desenvolvimento <br>
+    dos estudantes e gera um ambiente melhor para todos os envolvidos.</p>
 
-            <!-- 4. BANHEIROS -->
-            <figure>
-                <div class="image-group">
-                    <div class="before-after-labels"><span class="label-before">Antes</span> <span class="label-after">Depois</span></div>
-                    <img src="image_7.png" alt="Banheiro antes: louças sanitárias antigas e azulejos quebrados">
-                    <img src="image_8.png" alt="Banheiro depois: novas louças sanitárias e azulejos modernos">
-                </div>
-                <figcaption>4. Reforma dos Banheiros</figcaption>
-            </figure>
 
-            <!-- 5. QUADRA ESPORTIVA -->
-            <figure>
-                <div class="image-group">
-                    <div class="before-after-labels"><span class="label-before">Antes</span> <span class="label-after">Depois</span></div>
-                    <img src="image_9.png" alt="Quadra antes: piso rachado e traves de futebol enferrujadas">
-                    <img src="image_10.png" alt="Quadra depois: novo piso poliesportivo e traves modernas">
-                </div>
-                <figcaption>5. Modernização da Quadra Esportiva</figcaption>
-            </figure>
 
-            <!-- 6. PÁTIO E JARDIM -->
-            <figure>
-                <div class="image-group">
-                    <div class="before-after-labels"><span class="label-before">Antes</span> <span class="label-after">Depois</span></div>
-                    <img src="image_11.png" alt="Área externa antes: terreno baldio com entulho">
-                    <img src="image_12.png" alt="Área externa depois: jardim gramado com caminhos e bancos">
-                </div>
-                <figcaption>6. Pátio e Jardim Revitalizados</figcaption>
-            </figure>
-        </div>
-
-        <div class="footer-text">
-            <p>O cuidado com o patrimônio da escola é responsabilidade<br>
-            de todos os estudantes e funcionários, os bens duráveis são importantes para o desenvolvimento<br>
-            dos estudantes e gera um ambiente melhor para todos os envolvidos.</p>
-        </div>
-    </div>
 </body>
 </html>
